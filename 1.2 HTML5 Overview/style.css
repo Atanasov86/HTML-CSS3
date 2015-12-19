@@ -1,0 +1,54 @@
+body {
+    background: url(softuni.jpg) no-repeat;
+    font-family: Calibri, Helvetica, sans-serif;
+}
+
+section, h2, h4 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+}
+
+main > h1 {
+    color: #F3BE60;
+    border: 0;
+    margin-left: 10px;
+}
+
+main > ul {
+    list-style-type: square;
+    color: #FFF;
+}
+
+main > ul > li {
+     color: #F2B254;
+ }
+
+main > ul > li > h2 {
+    color: #FFF;
+    font-weight: normal;
+}
+
+main > ul > li > h2 > span {
+    color: #F3CD60;
+    font-weight: bold;
+}
+
+main > ul > li > section {
+    margin: 10px 17px;
+    width: 95%;
+    padding: 5px 5px;
+    background: #20201E;
+    border: 1px solid #747065;
+    line-height: 22px;
+}
+
+main > ul > li > section > h4 {
+    font-size: 18px;
+    color: #F9EDC8;
+    font-weight: bold;
+}
+
+#div-span {
+    text-indent: 20px;
+}

@@ -1,0 +1,59 @@
+@font-face {
+    font-family: SoftUni;
+    src: url('../fonts/Animated.ttf');
+}
+body {
+    font-family: SoftUni;
+    margin: 10px auto;
+    background: radial-gradient(circle at top left, white 25%, #0066FF, #0066FF);
+    /*background-size: 1500px 620px;*/
+}
+
+#wrapper {
+
+    margin: 0 auto;
+    width: 900px;
+    height: 600px;
+    background-image: url('../images/HawaiiBackground.png');
+}
+
+#wrapper > span {
+    font-size: 2em;
+    color: #FDBC21;
+    float: right;
+    margin-right: 25px;
+}
+
+img {
+    position: absolute;
+}
+
+img.vlado-img {
+    top: 220px;
+    left: 280px;
+}
+
+img.petia-img {
+    top: 190px;
+    left: 420px;
+}
+
+img.tedi-img {
+    top: 360px;
+    left: 500px;
+}
+
+img.nakov-img {
+    top: 155px;
+    left: 650px;
+}
+
+img.alex-img {
+    left: 730px;
+    top: 200px;
+}
+
+img.vlado1-img {
+    left: 910px;
+    top: 225px;
+}

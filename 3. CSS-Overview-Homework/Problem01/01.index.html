@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Problem1-WorldCupBrazil</title>
+	<link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+	<div id="container">
+		<table>
+			<thead>
+				<tr>
+					<th class="left-corner">Country</th>
+					<th>Result</th>
+					<th>Country</th>
+					<th>Group</th>
+					<th colspan="4" class="right-corner">Place A Bet</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="host" id="brazil"><p>Brazil</p></td>
+				  <td class="result">1-3</td>
+					<td class="guest" id="mexico"><p>Mexico</p></td>
+					<td class="group">A</td>
+					<td class="host">Brazil</td>
+					<td>
+						<select disabled class="red">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+						-
+						<select disabled class="red">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+					</td>
+					<td class="guest">Mexico</td>
+					<td><button type="button" class="red-button"></button></td>
+				</tr>
+				<tr>
+					<td class="host" id="spain"><p>Spain</p></td>
+				  <td class="result">1-5</td>
+					<td class="guest" id="netherlands"><p>Netherlands</p></td>
+					<td class="group">B</td>
+					<td class="host">Spain</td>
+					<td>
+						<select disabled class="red">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+						-
+						<select disabled class="red">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+					</td>
+					<td class="guest">Netherlands</td>
+					<td><button type="button" class="red-button"></button></td>
+				<tr>
+					<td class="host" id="italy"><p>Italy</p></td>
+				  <td class="result">2-1</td>
+					<td class="guest" id="england"><p>England</p></td>
+					<td class="group">C</td>
+					<td class="host">Italy</td>
+					<td>
+						<select disabled class="red">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+						-
+						<select disabled class="red">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+					</td>
+					<td class="guest">England</td>
+					<td><button type="button" class="red-button"></button></td>
+				</tr>
+				<tr>
+					<td class="host" id="argentina"><p>Argentina</p></td>
+				  <td class="result">-</td>
+					<td class="guest" id="bosnia"><p>Bosnia and Herz</p></td>
+					<td class="group">F</td>
+					<td class="host">Argentina</td>
+					<td>
+						<select disabled class="green">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+						-
+						<select disabled class="green">
+							<option value="0">0</option>
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+						</select>
+					</td>
+					<td class="guest">Bosnia and Herz</td>
+					<td><button type="button" class="green-button"></button></td>
+				</tr>
+				<tr>
+					<td class="host" id="germany"><p>Germany</p></td>
+				  <td class="result">-</td>
+					<td class="guest" id="portugal"><p>Portugal</p></td>
+					<td class="group">E</td>
+					<td class="host">Germany</td>
+					<td>
+						<span>
+							<select disabled class="green">
+								<option value="0">0</option>
+	              <option value="1">1</option>
+	              <option value="2">2</option>
+	              <option value="3">3</option>
+	              <option value="4">4</option>
+	              <option value="5">5</option>
+	              <option value="6">6</option>
+	              <option value="7">7</option>
+	              <option value="8">8</option>
+	              <option value="9">9</option>
+							</select>
+							-
+							<select disabled class="green">
+								<option value="0">0</option>
+	              <option value="1">1</option>
+	              <option value="2">2</option>
+	              <option value="3">3</option>
+	              <option value="4">4</option>
+	              <option value="5">5</option>
+	              <option value="6">6</option>
+	              <option value="7">7</option>
+	              <option value="8">8</option>
+	              <option value="9">9</option>
+							</select>
+						</span>
+					</td>
+					<td class="guest">Portugal</td>
+					<td><button type="button" class="green-button"></button></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+</body>
+</html>

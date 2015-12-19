@@ -1,0 +1,129 @@
+body {
+	font-size: 20px;
+	background-color: #00923E;
+	font-family: Tahoma;
+}
+
+#container {
+	width: 960px;
+}
+
+table {
+	margin: 20px auto;
+	border: 2px solid black;
+	border-spacing: 0px;
+	border-radius: 17px;
+}
+
+th {
+	background-color: #F8C711;
+}
+
+td {
+	text-align: center;
+	padding: 0px 20px;
+	font-size: 12px;
+}
+
+td, th {
+	border: 1px solid black;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+
+th:first-child {
+	border-top-left-radius: 15px;
+}
+
+th:last-child {
+	border-top-right-radius: 15px;
+}
+
+tr:last-child > td:first-child {
+	border-bottom-left-radius: 15px;
+}
+
+tr:last-child > td:last-child {
+	border-bottom-right-radius: 15px;
+}
+
+tr:nth-child(odd) {
+	background-color: #FFFFFF;
+}
+
+tr:nth-child(even) {
+	background-color: #C8C8C8;
+}
+
+.host {
+	padding-right: 5px;
+	text-align: right;
+}
+
+#brazil p::after {
+	content:url(../images/brasil-flag.png);
+}
+
+#mexico p::before {
+	content: url(../images/mexico-flag.png);
+}
+
+#spain p::after {
+	content: url(../images/spain-flag.png);
+}
+
+#netherlands p::before {
+	content: url(../images/netherlands-flag.png);
+}
+
+#italy p::after {
+	content: url(../images/italy-flag.png);
+}
+
+#england p::before {
+	content: url(../images/england-flag.png);
+}
+
+#argentina p::after {
+	content: url(../images/argentina-flag.png);
+}
+
+#bosnia p::before {
+	content: url(../images/bah-flag.png);
+}
+
+#germany p::after {
+	content: url(../images/germany-flag.png);
+}
+
+#portugal p::before {
+	content: url(../images/portugal-flag.png);
+}
+
+.guest {
+	padding-left: 5px;
+	text-align: left;
+}
+
+td > span {
+	vertical-align: middle;
+}
+.red {
+	color: red;
+}
+.green {
+	color: green;
+}
+button {
+	width: 33px;
+	height: 33px;
+	border: none;
+	background: url(../images/buttons.png) no-repeat;
+}
+.red-button {
+	background-position: 0% 100%;
+}
+
+.green-button {
+	background-position: 100% 0%;
+}
